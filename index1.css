@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.header {
+    background-image: url('header-image.jpg');
+    height: 92vh;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    height: 44px;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 84px;
+    margin: auto;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.english {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    height: 36px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0.2px white, 0 0 0 0.2px white;
+}
+
+.english img {
+    margin-left: 8px;
+    width: 10px;
+    height: 5px;
+    padding-bottom: 4px;
+}
+
+.sign-in:hover {
+    background-color: rgb(195, 51, 51);
+}
+
+.hero-section {
+    position: relative;
+    z-index: 20;
+    left: 32%;
+    top: 6%;
+}
+
+.hero {
+    position: relative;
+    top: 130px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.hero :nth-child(1) {
+    font-weight: bolder;
+    width: 1000px;
+    text-align: center;
+    height: 140px;
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.hero :nth-child(2) {
+    text-align: center;
+    width: 700px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.hero :nth-child(3) {
+    font-weight: lighter;
+    text-align: center;
+    width: 900px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 130px;
+}
+
+.temp {
+    height: 236px;
+}
+
+.get-started {
+    width: 200px;
+    height: 55px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.line {
+    height: 8px;
+    background-color: rgb(48, 48, 48);
+}
+
+.email {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    margin-right: -8px;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    border: 0.1px solid white;
+}
+
+.email:active {
+    border: 2px solid white;
+}
+
+.section {
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h1 {
+    font-size: 55px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 30px;
+    width: 620px;
+}
+
+.section img {
+    width: 600px;
+}
+
+.accordian {
+    margin-top: 35px;
+    color: white;
+    height: 900px;
+    width: 100%;
+}
+
+.footer {
+    padding-top: 65px;
+    height: 370px;
+    font-size: 18px;
+    width: 100%;
+    color: rgb(175, 171, 171);
+}
+
+.footer p {
+    padding-left: 200px;
+    margin-bottom: 19px;
+}
+
+.footer .english {
+    margin-left: 200px;
+    margin-bottom: 19px;
+    background-color: rgb(27, 26, 26);
+}
+
+.information p {
+    text-decoration: underline;
+    margin-bottom: 19px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.accordian h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.question {
+    width: 70%;
+    margin: auto;
+    height: 95px;
+    font-size: 27px;
+    color: white;
+    background-color: rgb(50, 48, 48);
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0.1px;
+}
+
+.question:hover {
+    background-color: rgb(57, 54, 54);
+}
+
+.plus {
+    width: 20px;
+    font-size: 30px;
+}
+
+.accordian h3 {
+    margin: auto;
+    margin-top: 50px;
+    font-weight: lighter;
+    text-align: center;
+    width: 900px;
+    height: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 130px;
+}
+
+.accordian-section {
+    margin-top: 3rem;
+    margin-left: 33%;
+}
+
+.styling {
+    width: 70%;
+    height: 0px;
+    margin: auto;
+    font-size: 27px;
+    color: white;
+    background-color: rgb(50, 48, 48);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.answer1 {
+    height: 180px;
+}
+
+.answer2 {
+    height: 110px;
+}
+
+.answer3 {
+    height: 230px;
+}
+
+.answer4 {
+    height: 120px;
+}
+
+.answer5 {
+    height: 130px;
+}
+
+.answer6 {
+    height: 190px;
+}
+
+.answer {
+    display: none;
+}
